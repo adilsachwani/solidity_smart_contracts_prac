@@ -8,11 +8,11 @@ contract mycontract {
         name = "no name";
     }
     
-    function get() public view returns(string){
+    function get() public view returns(string memory){
         return name;
     }
     
-    function set(string _name) public {
+    function set(string memory _name) public {
         name = _name;
     }
     
